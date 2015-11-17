@@ -9,12 +9,12 @@ namespace mywebsite.ViewModels.Shared
 {
     public class ViewModel
     {
-        public IEnumerable<NavbarResource> NavbarItems { get; set; }
+        //public IEnumerable<NavbarResource> NavbarItems { get; set; }
 
         public ViewModel()
         {
-            var repo = new NavbarRepository();
-            NavbarItems = repo.GetAll().OrderBy(r => r.Ordinal);
+            //var repo = new NavbarRepository();
+            //NavbarItems = repo.GetAll().OrderBy(r => r.Ordinal);
         }
     }
 }
