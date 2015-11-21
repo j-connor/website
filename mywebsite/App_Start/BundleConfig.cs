@@ -46,7 +46,7 @@ namespace mywebsite
             bundles.Add(new ScriptBundle("~/bundles/js/bootstrap").Include(
                       "~/Content/js/bootstrap.min.js"));
 
-            bundles.Add(new StyleBundle("~/Content/css").Include(
+            bundles.Add(new StyleBundle("~/bundles/css/bootstrap").Include(
                       "~/Content/css/bootstrap.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/js/magnific-popup").Include(
