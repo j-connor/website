@@ -51,6 +51,8 @@ namespace mywebsite
 
             bundles.Add(new ScriptBundle("~/bundles/js/magnific-popup").Include(
                 "~/Content/js/jquery.magnific-popup.js"));
+
+            BundleTable.EnableOptimizations = false;
         }
     }
 }
