@@ -315,6 +315,7 @@
     <Content Include="Views\Shared\partial\Footer.cshtml" />
     <Content Include="Views\About\Index.cshtml" />
     <Content Include="Views\Shared\_Preloader.cshtml" />
+    <Content Include="Views\Shared\_LeftHeader.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

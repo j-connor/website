@@ -1,6 +1,4 @@
 ﻿@model mywebsite.ViewModels.Shared.ViewModel
-
-
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -9,15 +7,11 @@
 <html class="no-js">
 <!--<![endif]-->
 <head>
-
-
-    <!-- Metas -->
     <meta charset="utf-8">
     <title>SPLIT - PERSONAL VCARD HTML TEMPLATE</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Css -->
     @Styles.Render("~/bundles/css/bootstrap")
     @Styles.Render("~/bundles/css/owl")
     @Styles.Render("~/bundles/css/magnific-popup")
@@ -35,80 +29,16 @@
 
     @Html.Partial("_Preloader")
 
-    <!-- End preloader-->
     <!--Wrapper-->
     <div id="wrapper" class="margLTop  margLBottom">
-
-        <!--Container-->
         <div class="container">
-
-
-
-
             <div class="row ">
-
-
-
-
                 <!--Left content-->
-
                 <div class="col-md-3 nopr left-content">
-
-                    <!--Header-->
-                    <header id="header">
-
-
-
-
-                        <!--Main header-->
-                        <div class="main-header">
-
-                            <!--Profile image-->
-                            <figure class="img-profile">
-                                <img src="/Content/img/profile.jpg" alt="" />
-
-                                <figcaption class="name-profile">
-                                    <span>Carlose smith <sup>&reg;</sup></span>
-                                </figcaption>
-
-                            </figure>
-                            <!--End profile image-->
-                            <!--Main navigation-->
-                            <nav id="main-nav" class="main-nav clearfix tabbed">
-                                <ul>
-                                    <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
-                                    <li><a href="#portfolio"><i class="fa fa-folder-open-o"></i>Portfolio</a></li>
-                                    <li><a href="#blog"><i class="fa fa-comment"></i>Blog</a></li>
-                                    <li><a href="#contact"><i class="fa fa-mobile"></i>Contact</a></li>
-                                </ul>
-                            </nav>
-                            <!--End main navigation-->
-
-
-
-                        </div>
-                        <!--End main header-->
-
-                        <div class="bottom-header bgWhite ofsTSmall ofsBSmall tCenter">
-                            <ul class="social">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-
-                            </ul>
-
-                            <p>&copy; 2015 Mutationthemes.</p>
-
-                        </div>
-
-
-
-                    </header>
-                    <!--End  header-->
-
-
+                    @Html.Partial("_LeftHeader")
                 </div>
                 <!--End left content-->
+
                 <!--Right content-->
                 <div class="col-md-9 right-content">
 
