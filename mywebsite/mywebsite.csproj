@@ -314,6 +314,7 @@
     <Content Include="Views\Shared\_LeftHeader.cshtml" />
     <Content Include="Views\Shared\_DividerSvg.cshtml" />
     <Content Include="Views\Home\_AboutSection.cshtml" />
+    <Content Include="Views\Home\_PortfolioSection.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
