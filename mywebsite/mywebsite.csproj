@@ -240,6 +240,7 @@
     <Content Include="Content\img\testimonial\1.jpg" />
     <Content Include="Content\img\testimonial\2.jpg" />
     <Content Include="Content\js\bootstrap.min.js" />
+    <Content Include="Content\js\googlemap.js" />
     <Content Include="Content\js\jquery-1.11.3.min.js" />
     <Content Include="Content\js\jquery-migrate-1.2.1.js" />
     <Content Include="Content\js\jquery.easing.1.3.js" />
