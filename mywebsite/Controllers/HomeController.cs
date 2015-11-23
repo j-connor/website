@@ -12,13 +12,7 @@ namespace mywebsite.Controllers
     {
         public ActionResult Index()
         {
-            var repo = new CarouselRepository();
-            var model = new IndexViewModel()
-            {
-                CarouselResources = repo.GetAll().Take(3).OrderBy(r => r.Ordinal)
-            };
-
-            return View(model);
+            return View();
         }
     }
 }
