@@ -310,12 +310,10 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\partial\Navbar.cshtml" />
-    <Content Include="Views\Shared\partial\Carousel.cshtml" />
-    <Content Include="Views\Shared\partial\Footer.cshtml" />
     <Content Include="Views\About\Index.cshtml" />
     <Content Include="Views\Shared\_Preloader.cshtml" />
     <Content Include="Views\Shared\_LeftHeader.cshtml" />
+    <Content Include="Views\Shared\_DividerSvg.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
