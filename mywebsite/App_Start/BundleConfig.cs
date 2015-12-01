@@ -52,6 +52,10 @@ namespace mywebsite
             bundles.Add(new ScriptBundle("~/bundles/js/magnific-popup").Include(
                 "~/Content/js/jquery.magnific-popup.js"));
 
+            bundles.Add(new StyleBundle("~/bundles/css/home/index").Include(
+                "~/Content/css/pages/home/index.css"
+                ));
+
             BundleTable.EnableOptimizations = false;
         }
     }

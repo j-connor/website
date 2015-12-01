@@ -1,0 +1,7 @@
+﻿ul.job-accomplishments > li {
+    list-style-type: circle;
+}
+
+h6.job-location {
+    font-family: open_sans, Arial, sans-serif !important;
+}

@@ -212,6 +212,7 @@
     <Content Include="Content\css\owl-carousel\owl.carousel.css" />
     <Content Include="Content\css\owl-carousel\owl.theme.css" />
     <Content Include="Content\css\owl-carousel\owl.transitions.css" />
+    <Content Include="Content\css\pages\home\index.css" />
     <Content Include="Content\img\blog\1.jpg" />
     <Content Include="Content\img\blog\2.jpg" />
     <Content Include="Content\img\blog\3.jpg" />
@@ -327,7 +328,6 @@
     <Content Include="Content\font\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\font\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
-    <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
